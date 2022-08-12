@@ -1,22 +1,22 @@
-laravel8+vue2‚ªƒCƒ“ƒXƒg[ƒ‹Ï‚İ‚Ìdocker
+laravel8+vue2ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿ã®docker
 
 php8
-Å‘åƒAƒbƒvƒ[ƒhƒtƒ@ƒCƒ‹ƒTƒCƒY•ÏXÏ‚İ
-vue-routerƒCƒ“ƒXƒg[ƒ‹Ï‚İ
+æœ€å¤§ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚ºå¤‰æ›´æ¸ˆã¿
+vue-routerã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿
 
-ƒ|[ƒg”Ô†8080
-phpmyadmain‚Í8081
+ãƒãƒ¼ãƒˆç•ªå·8080
+phpmyadmainã¯8081
 
-ƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚¢ƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®iƒfƒBƒŒƒNƒgƒŠ‚²‚Æƒ_ƒEƒ“ƒ[ƒh‚³‚ê‚é‚Ì‚ÅV‚½‚ÉƒtƒHƒ‹ƒ_‚ğì‚é•K—v‚Í‚È‚¢j
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã„ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•ï¼ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã”ã¨ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã‚‹ã®ã§æ–°ãŸã«ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œã‚‹å¿…è¦ã¯ãªã„ï¼‰
 git clone https://github.com/diepyon/Laravel8andVue2.git
 
-”CˆÓ‚Ì–¼Ì‚É•ÏX
-mvLaravel8andVue2@newname
+ä»»æ„ã®åç§°ã«å¤‰æ›´
+mv Laravel8andVue2ã€€newname
 
-ƒfƒBƒŒƒNƒgƒŠ“à‚ÉˆÚ“®‚µ‚Ä
+ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªå†…ã«ç§»å‹•ã—ã¦
 docker compose up -d
 
-ƒCƒ“ƒXƒg[ƒ‹Œã‚É‰º‹L‚ÌƒRƒ}ƒ“ƒh‚ª•K—v
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å¾Œã«ä¸‹è¨˜ã®ã‚³ãƒãƒ³ãƒ‰ãŒå¿…è¦
 docker compose exec app bash
 composer install
 cp .env.example .env
@@ -26,7 +26,7 @@ chmod -R 777 storage bootstrap/cache
 php artisan migrate
 exit
 
-githubn‚Ì•R‚Ã‚¯’¼‚µ‚à•K—v
+githubnã®ç´ã¥ã‘ç›´ã—ã‚‚å¿…è¦
 git remote set-url origin {new-url}
 git add -A
 git commit -m "first commit"
